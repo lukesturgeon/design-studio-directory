@@ -10,6 +10,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.22",
     "@emotion/styled": "^10.0.23",
+    "axios": "^0.21.1",
     "cacheable-response": "^1.10.0",
     "date-fns": "^2.8.1",
     "dotenv": "^8.2.0",
@@ -21,6 +22,7 @@
     "lodash": "^4.17.15",
     "next": "9.3.5",
     "next-absolute-url": "^1.1.1",
+    "papaparse": "^5.3.1",
     "polished": "^3.4.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -30,7 +32,6 @@
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-thunk": "^2.3.0",
-    "shortid": "^2.2.15",
-    "tabletop": "^1.6.3"
+    "shortid": "^2.2.15"
   }
 }
