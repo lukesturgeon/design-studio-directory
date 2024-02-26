@@ -1,9 +1,9 @@
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
 
 import React from "react";
 import styled from "@emotion/styled";
 import { css, jsx } from "@emotion/core";
-import { useTheme } from "emotion-theming";
+import { useTheme } from '@emotion/react';
 
 import Constraint from "./Constraint";
 import { TwitterLogo } from "./icons";

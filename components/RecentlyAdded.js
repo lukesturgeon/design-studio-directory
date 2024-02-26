@@ -1,9 +1,9 @@
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
 
 import React from "react";
 import styled from "@emotion/styled";
 import { jsx, css } from "@emotion/core";
-import { useTheme } from "emotion-theming";
+import { useTheme } from '@emotion/react';
 
 import Heading from "./Heading";
 import Constraint from "./Constraint";
@@ -13,8 +13,9 @@ import useBreakpoint from "./useBreakpoint";
 
 const MAX_STUDIOS_COUNT = 18;
 
+
 const Container = styled.div`
-  background-color: ${props => props.theme.colors.lightYellow};
+ background-color: ${props => props.theme.colors.lightYellow};
 `;
 
 const RecentlyAdded = ({ studios }) => {

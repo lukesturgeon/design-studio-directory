@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Head from "next/head";
 import styled from "@emotion/styled";
 import { Global, css } from "@emotion/core";
-import { useTheme } from "emotion-theming";
+import { useTheme } from '@emotion/react';
 
 import { useLogPageView } from "../../analytics";
 import Footer from "../Footer";

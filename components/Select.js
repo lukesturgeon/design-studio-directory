@@ -1,7 +1,8 @@
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
+
 import styled from "@emotion/styled";
 import { css, jsx } from "@emotion/core";
-import { useTheme } from "emotion-theming";
+import { useTheme } from '@emotion/react';
 import Downshift from "downshift";
 import { transparentize } from "polished";
 
@@ -88,7 +89,7 @@ const Select = ({
         const handleActive = () => {
           openMenu();
           setState({
-            inputValue: null,
+            inputValue: '',
           });
         };
 

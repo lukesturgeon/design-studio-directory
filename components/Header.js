@@ -1,10 +1,10 @@
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
 
 import React from "react";
 import PropTypes from "prop-types";
 import Link from "next/link";
 import { jsx, css } from "@emotion/core";
-import { useTheme } from "emotion-theming";
+import { useTheme } from '@emotion/react';
 import { motion, useViewportScroll, useTransform } from "framer-motion";
 
 import Constraint from "./Constraint";
@@ -17,16 +17,7 @@ const LogoAnchor = React.forwardRef((props, ref) => {
 
   return (
     <Heading level={1} size={breakpoint.gte("md") ? 1.3 : 1} weight={600}>
-      <a
-        ref={ref}
-        href="/"
-        css={css`
-          text-decoration: none;
-        `}
-        {...props}
-      >
-        Design Studio Directory
-      </a>
+      Design Studio Directory
     </Heading>
   );
 });
@@ -83,7 +74,7 @@ const Header = ({ children }) => {
             paddingTop: `4rem`
           }}
         >
-          <Link href="/">
+          <Link href="/" style={{textDecoration: "none"}}>
             <LogoAnchor />
           </Link>
         </div>
@@ -97,11 +88,7 @@ const Header = ({ children }) => {
             maxWidth: 750,
             margin: "0 auto"
           }}
-          css={props => css`
-            ${props.mq.md} {
-              paddingbottom: "2rem";
-            }
-          `}
+          
         >
           {children}
           {breakpoint.gte("md") && <VerticalSpace size="2rem" />}
@@ -116,3 +103,9 @@ Header.propTypes = {
 };
 
 export default Header;
+
+/* css={props => css`
+            ${props.mq.md} {
+              paddingbottom: "2rem";
+            }
+          `}*/
