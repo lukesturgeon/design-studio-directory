@@ -77,15 +77,10 @@ const Footer = () => {
           }}
         >
           <div>
-            A project by{" "}
-            <Anchor href="http://jamingalea.com/">Jamin Galea</Anchor>
+            A project from{" "}
+            <Anchor href="https://studionoel.co.uk/">Studio Noel</Anchor>
           </div>
-          <div>
-            Built by{" "}
-            <Anchor href="https://steveburtenshaw.com/">
-              Steve Burtenshaw
-            </Anchor>
-          </div>
+          
           <div>
             <PlainAnchor
               href="https://twitter.com/DesignStudioDir"
