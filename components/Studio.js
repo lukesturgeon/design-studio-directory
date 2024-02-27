@@ -1,9 +1,9 @@
-/** @jsx jsx */
+
 
 import React from "react";
 import styled from "@emotion/styled";
 import { jsx, css } from "@emotion/core";
-import { useTheme } from "emotion-theming";
+import { useTheme } from '@emotion/react';
 
 import Heading from "./Heading";
 import { TwitterLogo, ExtneralLink } from "./icons";

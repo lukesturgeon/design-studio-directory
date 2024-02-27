@@ -1,6 +1,6 @@
 import React from "react";
 import App from "next/app";
-import { ThemeProvider } from "emotion-theming";
+import {  ThemeProvider } from '@emotion/react'
 import { Provider } from "react-redux";
 
 import withStore from "../dataHelpers/withStore";

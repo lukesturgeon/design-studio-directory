@@ -1,11 +1,11 @@
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
+
 import React from "react";
 import { connect } from "react-redux";
 import { useRouter } from "next/router";
-import Link from "next/link";
 import { css, jsx } from "@emotion/core";
 import styled from "@emotion/styled";
-import { useTheme } from "emotion-theming";
+import { useTheme  } from '@emotion/react'
 
 import { getData } from "../../../dataHelpers/store";
 import Constraint from "../../../components/Constraint";
@@ -124,9 +124,7 @@ const ResultsPage = ({ studios, city, country, locations }) => {
         <Container>
           <Constraint css={constraint}>
             <VerticalSpace size="5rem" />
-            <Link href="/">
               <ButtonAnchor type="secondary">Back to Homepage</ButtonAnchor>
-            </Link>
             <VerticalSpace size="5rem" />
           </Constraint>
         </Container>
@@ -266,9 +264,7 @@ const ResultsPage = ({ studios, city, country, locations }) => {
 
           <VerticalSpace size="2.5rem" />
 
-          <Link href="/">
-            <ButtonAnchor type="secondary">Back to Homepage</ButtonAnchor>
-          </Link>
+          <ButtonAnchor type="secondary">Back to Homepage</ButtonAnchor>
 
           <VerticalSpace size="5rem" />
         </Constraint>

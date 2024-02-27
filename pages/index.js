@@ -1,9 +1,10 @@
-/** @jsx jsx */
+/** @jsxImportSource @emotion/react */
+
 import React from "react";
 import { useRouter } from "next/router";
 import { connect } from "react-redux";
 import { jsx, css } from "@emotion/core";
-import { useTheme } from "emotion-theming";
+import { useTheme  } from '@emotion/react'
 
 import Heading from "../components/Heading";
 import { Layout } from "../components/Layout";
