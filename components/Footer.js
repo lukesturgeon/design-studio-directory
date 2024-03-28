@@ -54,7 +54,7 @@ const Footer = () => {
           }}
         >
           <PlainAnchor
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfYA7R6miiaLgHyuqIXjgXhO5I_B5AcjMyMW40wuX8Q36O5EA/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSepMfctlDO-enGUdrEXObNgiBha63f5Kmkc-70s3ZOQhnbG4w/viewform"
             target="_blank"
             rel="noopener noreferrer"
             style={{
